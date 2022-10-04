@@ -1,0 +1,169 @@
+.eventMainDiv {
+  background-color: #dddddd;
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+.leftEventDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: auto;
+  width: auto;
+}
+.Birthdaybash {
+  position: absolute;
+  width: 333px;
+  height: 37px;
+  left: 240px;
+  top: 150px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  display: flex;
+  align-items: center;
+
+  color: #240d57;
+}
+.eventPhara {
+  position: absolute;
+  width: 155px;
+  height: 15px;
+  left: 240px;
+  top: 208px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #828282;
+}
+.startDate {
+  width: 155px;
+  height: 21px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #240d57;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.endDate {
+  width: 253px;
+  height: 21px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #4f4f4f;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.location {
+  width: 104px;
+  height: 21px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #240d57;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.address {
+  width: 196px;
+  height: 21px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #4f4f4f;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.rightEventDiv {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: calc(50% - 500px / 2 + 266px);
+  top: 140px;
+
+  background: url("./../../assests/Birthday\ cake.png");
+  border-radius: 0px;
+}
+.iconDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  gap: 1px;
+
+  width: 56px;
+  height: 56px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.icon {
+  position: absolute;
+  /* left: 16.67%;
+  right: 14.59%; */
+  top: 8.33%;
+  bottom: 10.42%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  /* background: #000000; */
+}

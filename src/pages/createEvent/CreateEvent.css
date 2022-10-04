@@ -1,0 +1,66 @@
+.ceateEvent {
+  border: 1px solid #e87bf8;
+  border-radius: 10px;
+  width: 400px;
+  height: auto;
+  background-color: #ffd7e0;
+  margin: auto;
+  margin-top: 50px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #240d57;
+}
+.formDiv {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #240d57;
+  gap: 10px;
+}
+.inputs {
+  height: 30px;
+  width: 300px;
+  border: none;
+  border-radius: 20px;
+  padding: 8px;
+}
+.Fileinput {
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  color: #240d57;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.Nextbtn {
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  color: #240d57 !important;
+  background-color: #e87bf8;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
